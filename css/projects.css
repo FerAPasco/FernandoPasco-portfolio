@@ -1,0 +1,86 @@
+.project{
+    background-color: var(--color-background);
+}
+
+.project__title{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold ;
+    padding: 2em;
+    color: var(--corlor-links);
+}
+
+.project__container{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.project__box{
+    width: 300px;
+    background-color: var(--color-background-two);
+    margin: 2em;
+}
+
+.project__box:hover{
+    box-shadow: 0rem 0rem 4rem var(--color-background-four);
+}
+.project__box:hover .project__img__r{
+    background-image: none;
+}
+.project__box:hover .project__img__m{
+    background-image:none;
+}
+.project__box:hover .project__img__b{
+    background-image:none;
+}
+
+.project__box:hover .video__m{
+    display: block;
+}
+
+.project__img__r{
+    width: 100%;
+    height: 200px;
+    background-image: url(../assets/rekyklos.png);
+    background-size: 100% 200px;
+}
+.project__img__b{
+    width: 100%;
+    height: 200px;
+    background-image: url(../assets/belciim.png);
+    background-size: 100% 200px;
+}
+.project__img__m{
+    width: 100%;
+    height: 200px;
+    background-image: url(../assets/makisballoons.png);
+    background-size: 100% 200px;
+}
+
+.video__m{
+    width: 100%;
+    height: 200px;
+    display: none;
+}
+
+
+.project__name{
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    color: var(--color-text-white);
+}
+
+.project__paragraph{
+    padding: 10px;
+    height: 200px;
+}
+
+.project__link{
+    display: flex;
+    justify-content: center;
+}

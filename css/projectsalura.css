@@ -1,0 +1,56 @@
+.project__alura{
+    background-color: var(--color-background);
+}
+
+.project__alura__title{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold ;
+    padding: 2em;
+    color: var(--corlor-links);
+}
+
+.project__alura__container{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.project__alura__box{
+    width: 300px;
+    background-color: var(--color-background-two);
+    margin: 2em;
+}
+
+.project__alura__box:hover{
+    box-shadow: 0rem 0rem 4rem var(--color-background-four);
+}
+
+.project__alura__img{
+    width: 100%;
+    height: 200px;
+    background-image: url(../assets/encriptador.png);
+    background-size: 100% 200px;
+}
+
+.project__alura__name{
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    color: var(--color-text-white);
+}
+
+.project__alura__paragraph{
+    padding: 10px;
+    height: 100px;
+}
+
+.project__alura__link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: .5em;
+}
